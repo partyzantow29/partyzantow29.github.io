@@ -236,18 +236,21 @@ ZAPRASZAMY NA PREZENTACJĘ
 </section>
   <section id="contact" class="contact">
 
-<form action="https://getsimpleform.com/messages?form_api_token=22c3c8f308a4e6c442e36e146bdb0e1d" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='http://localhost:4000' />
-  <!-- all your input fields here.... -->
-  <input type='text' name='name' required placeholder='Nazwa firmy/Imię i Nazwisko' />
-  <input type='email' name='mail' required placeholder="Adres e-mail"/>
-  <input type='text' name='phone' placeholder="Nr telefonu" />
-  <input type='text' name='text' required placeholder="Wiadomość" />
-  
-  <input type='submit' value='Wyślij wiadomość' />
-</form>
-      
+
+<div class="form-group">
+  <form action="https://getsimpleform.com/messages?form_api_token=22c3c8f308a4e6c442e36e146bdb0e1d" method="post" class="form-inline">
+    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+    <input type='hidden' name='redirect_to' value='http://localhost:4000' />
+    <!-- all your input fields here.... -->
+    <input type='text' name='name' class="form-control"  required placeholder='Nazwa firmy/Imię i Nazwisko' />
+    <input type='email' name='mail' class="form-control"  required placeholder="Adres e-mail"/>
+    <input type='text' name='phone' class="form-control"  placeholder="Nr telefonu" />
+    <input type='text' name='text' class="form-control row"   required placeholder="Wiadomość" />
+    
+    <input type='submit' value='Wyślij wiadomość' class="btn btn-primary" />
+  </form>
+        
+</div>      
 
 
 </section>
