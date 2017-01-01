@@ -38,3 +38,7 @@ $(document).ready(function() {
     $('#map_iframe').addClass('scrolloff');
   });
 });
+
+
+// MediaElementPlayer
+var player = new MediaElementPlayer('#player1');
