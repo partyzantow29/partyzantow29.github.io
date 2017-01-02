@@ -41,4 +41,8 @@ $(document).ready(function() {
 
 
 // MediaElementPlayer
-var player = new MediaElementPlayer('#player1');
+alert("it is running");
+
+$('#city-video').mediaelementplayer(/* Options */);
+
+//var __player = new MediaElementPlayer('#city-video');

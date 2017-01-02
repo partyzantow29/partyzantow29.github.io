@@ -249,5 +249,7 @@ contact {
 }
 textarea {
     resize: both;
+    border-radius: 4px;
+    box-sizing: border-box;
     
 }
