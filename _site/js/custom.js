@@ -41,7 +41,6 @@ $(document).ready(function() {
 
 
 // MediaElementPlayer
-alert("it is running");
 
 $('#city-video').mediaelementplayer(/* Options */);
 
