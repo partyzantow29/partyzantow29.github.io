@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
 
   <meta charset="utf-8">
@@ -23,6 +22,14 @@
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
+
+  <!-- Add fancyBox -->
+	<link href="css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"  media="screen" />
+	<link href="css/jquery.fancybox-buttons.css?v=1.0.5" rel="stylesheet"/>
+	<link href="css/jquery.fancybox-thumbs.css?v=1.0.7" rel="stylesheet"/>
+
+
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -31,9 +38,7 @@
   <![endif]-->
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>  
 </head>
-
 <body>
-
   <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
 <nav id="sidebar-wrapper">
   <ul class="sidebar-nav">
@@ -74,6 +79,7 @@
   </div>
 </header>
 
+  
   <section id="about" class="about">
   <div class="container">
     <div class="row">
@@ -86,30 +92,10 @@ Budynek posiada drzwi i okna antywłamaniowe. Posesja za budynkiem jest w cało�
 Wjazd zostały wybrukowane kostką betonową na 4 stanowiska.
 Przed budynkiem znajduje się wybrukowany duży parking na ponad 60 samochodów.
 </p>
-<p>
 
-ZAPRASZAMY NA PREZENTACJĘ
-</p>
-      </div>
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</section>
+<a href="#gallery" class="btn btn-dark btn-lg">Zapraszamy do galerii</a>
 
-  <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-<section id="services" class="services bg-primary">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-lg-10 col-lg-offset-1">
-        <h2>Our Services</h2>
-        <hr class="small">
-        <div class="row">
-          
-        </div>
-        <!-- /.row (nested) -->
       </div>
-      <!-- /.col-lg-10 -->
     </div>
     <!-- /.row -->
   </div>
@@ -131,35 +117,73 @@ ZAPRASZAMY NA PREZENTACJĘ
         <div class="row">
           <div class="col-md-6">
             <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/gal2-1.jpg">
+              <a href="img/gal/gal2-1.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+                <img class="img-portfolio img-responsive" src="img/gal/gal2-1.jpg">
               </a>
             </div>
           </div>
           <div class="col-md-6">
             <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/gal2-2.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/gal2-3.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/gal2-4.jpg">
+              <a href="img/gal/gal2-2.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+                <img class="img-portfolio img-responsive" src="img/gal/gal2-2.jpg">
               </a>
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="img/gal/gal2-3.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+                <img class="img-portfolio img-responsive" src="img/gal/gal2-3.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="img/gal/gal2-4.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+                <img class="img-portfolio img-responsive" src="img/gal/gal2-4.jpg">
+              </a>
+            </div>
+        </div>
+        <div class="row">
+
+           <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="img/gal/gal2-5.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+                <img class="img-portfolio img-responsive" src="img/gal/gal2-5.jpg">
+              </a>
+            </div>
+          </div>
+           <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="img/gal/gal2-6.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+                <img class="img-portfolio img-responsive" src="img/gal/gal2-6.jpg">
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="row">
+
+           <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="img/gal/gal-1.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+                <img class="img-portfolio img-responsive" src="img/gal/gal-1.jpg">
+              </a>
+            </div>
+          </div>
+           <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="img/gal/gal-2.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+                <img class="img-portfolio img-responsive" src="img/gal/gal-2.jpg">
+              </a>
+            </div>
+          </div>
+
+
+        </div>
         <!-- /.row (nested) -->
-        <a href="#" class="btn btn-dark">View More Items</a>
       </div>
       <!-- /.col-lg-10 -->
     </div>
@@ -168,7 +192,7 @@ ZAPRASZAMY NA PREZENTACJĘ
   <!-- /.container -->
 </section>
 
-  <section id="location" class="portfolio">
+  <section id="location" class="location">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -189,51 +213,9 @@ ZAPRASZAMY NA PREZENTACJĘ
   <!-- /.container -->
 </section>
 
-  <section id="city" class="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 text-center">
+  <section id="map" class="map text-center">
+<h3>Gdzie na mapie jesteśmy</h3>
 
-<p>
- Busko-Zdrój jest miastem uzdrowiskowe w Polsce, w województwie świętokrzyskim. Pozyskało prawo miejskie od roku 1287. Wszystkich mieszkańców jest 16.5 tysiąca co pod względem mieszkańców uplasowuje na 7 miejscu w województwie świętokrzyskim. Busko-Zdrój jest najbardziej nasłonecznionym miastem Polski. 
- Pierwsze zmianki o uzdrowiskowych zasobach miasta sięgają roku 1252, ale dopiero w latach 90 XIX wieku miasto stało się jedno z najwaniejszych uzdrowisk w kraju.
-</p><P>
- W miescie Busko-Zdrój odbywają się liczne festiwale kulturowo-rozrywkowe m.in <a href="https://pl.wikipedia.org/wiki/Mi%C4%99dzynarodowy_Festiwal_Muzyczny_im._Krystyny_Jamroz_w_Busku-Zdroju"> Międzynarodowy Festiwal Muzyczny im. Krystyny Jamroz</a>  
- oraz bardzo czesto są kręcone ujęcia z serialu <a href="https://pl.wikipedia.org/wiki/Ojciec_Mateusz">Ojciec Mateusz</a>.
-</p><P>
- Więcej o Busku mozna poczytać na <a href="https://pl.wikipedia.org/wiki/Busko-Zdr%C3%B3j">stronie wikipedii</a>. 
-</p>
-
-<video width="300" height="150" controls="true" 
-  <!-- autoplay muted loop class="video-stream" x-webkit-airplay="allow" -->
-id="city-video" src="https://www.youtube.com/watch?v=10Fg0HP8288"  >
- 
-  Your browser doesn't support HTML5 video. Here's a <a target="_blank" href="#">link</a> to download the video.  
-  </video>
-
-
-
-      </div>
-      <!-- /.col-lg-10 -->
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</section>
-
-  <aside class="call-to-action bg-primary">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h3>The buttons below are impossible to resist.</h3>
-        <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-        <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-      </div>
-    </div>
-  </div>
-</aside>
-
-  <section id="map" class="map">
   <iframe id="map_iframe"
     width="100%"
     height="100%"
@@ -256,23 +238,50 @@ id="city-video" src="https://www.youtube.com/watch?v=10Fg0HP8288"  >
     allowfullscreen>
   </small>
 </section>
-  <section id="contact" class="contact">
+  <section id="city" class="city">
+  <div class="container text-center">
+    <div class="row">
+      <h2>Witamy w Busku-Zdroju</h2>
+    </div>
 
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+
+<p>
+ Busko-Zdrój jest miastem uzdrowiskowe w Polsce, w województwie świętokrzyskim. Pozyskało prawo miejskie od roku 1287. Wszystkich mieszkańców jest 16.5 tysiąca co pod względem mieszkańców uplasowuje na 7 miejscu w województwie świętokrzyskim. Busko-Zdrój jest najbardziej nasłonecznionym miastem Polski. 
+ Pierwsze zmianki o uzdrowiskowych zasobach miasta sięgają roku 1252, ale dopiero w latach 90 XIX wieku miasto stało się jedno z najwaniejszych uzdrowisk w kraju.
+</p><P>
+ W miescie Busko-Zdrój odbywają się liczne festiwale kulturowo-rozrywkowe m.in <a href="https://pl.wikipedia.org/wiki/Mi%C4%99dzynarodowy_Festiwal_Muzyczny_im._Krystyny_Jamroz_w_Busku-Zdroju"> Międzynarodowy Festiwal Muzyczny im. Krystyny Jamroz</a>  
+ oraz bardzo czesto są kręcone ujęcia z serialu <a href="https://pl.wikipedia.org/wiki/Ojciec_Mateusz">Ojciec Mateusz</a>.
+</p><P>
+ Więcej o Busku mozna poczytać na <a href="https://pl.wikipedia.org/wiki/Busko-Zdr%C3%B3j">stronie wikipedii</a>. 
+</p>
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+  <section id="contact" class="contact text-center">
+<h2>Jesteśmy do Państwa  dyspozycji</h2>
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 text-center">
+      <div class="col-lg-10 col-lg-offset-1">
 
 <div class="form-group">
-  <form action="https://getsimpleform.com/messages?form_api_token=22c3c8f308a4e6c442e36e146bdb0e1d" method="post" class="form-inline">
+  <form action="https://getsimpleform.com/messages?form_api_token=22c3c8f308a4e6c442e36e146bdb0e1d" method="post" 
+  class="form-horizontal">
     <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
     <input type='hidden' name='redirect_to' value='http://localhost:4000' />
     <!-- all your input fields here.... -->
-    <input type='text' name='name' class="form-control"  required placeholder='Nazwa firmy/Imię i Nazwisko' />
-    <input type='email' name='mail' class="form-control"  required placeholder="Adres e-mail"/>
-    <input type='text' name='phone' class="form-control"  placeholder="Nr telefonu" />
-    <input type='text' name='text' class="form-control textarea"   required placeholder="Wiadomość" />
-    
-    <input type='submit' value='Wyślij wiadomość' class="btn btn-primary" />
+    <input type='text'  name='name'    class="form-control"  required placeholder='Państwa nazwa firmy' />
+    <input type='email' name='mail'    class="form-control  margin-top"  required placeholder="Państwa adres e-mail"/>
+    <input type='text'  name='phone'   class="form-control"  placeholder="Nr telefonu" />
+    <textarea class="form-control" name="message" required placeholder="Treść wiadomości"  rows="5"></textarea>
+   	
+     <input type='submit' value='Wyślij wiadomość' class="btn btn-primary" />
   </form>
         
 </div>      
@@ -280,14 +289,54 @@ id="city-video" src="https://www.youtube.com/watch?v=10Fg0HP8288"  >
 
       </div></div></div>
 </section>
+
   
+  <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h4><strong></strong>
+        </h4>
+        <p>
+          
+          ul. Partyzantów 29<br>
+          
+          Busko-Zdrój<br>
+          
+        </p>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:partyzantow29@gmail.com">partyzantow29@gmail.com</a>
+          </li>
+        </ul>
+        <br>
+        <hr class="small">
+        <p class="text-muted">Copyright &copy; partyzantow29 2017</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
   <!-- jQuery -->
 <script src="js/jquery.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
 <script src="js/mediaelement-and-player.min.js"></script>
+
+
+<!-- fancyBox -->
+<script src="js/jquery.fancybox.js?v=2.1.5"></script>
+<script src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script src="js/jquery.fancybox-media.js?v=1.0.6"></script>
+<script src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	
+
+	
 
 <!-- Custom Theme JavaScript -->
 <script src="js/custom.js"></script> 
